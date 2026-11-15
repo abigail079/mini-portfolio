@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Abigail, a junior frontend developer building responsive and interactive web experiences.">
+  <title>Abigail | Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Abigail home"><span class="brand-mark">A.</span><span>abigail<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Projects</a>
+        <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow reveal"><span class="status-dot"></span> AVAILABLE FOR LEARNING & COLLABORATION</div>
+          <p class="hero-kicker reveal">HELLO, WORLD. I'M</p>
+          <h1 class="reveal">Abigail<span class="hero-period">.</span><br><span class="outline-text">I build</span> for the web.</h1>
+          <p class="hero-description reveal">A junior frontend developer turning ideas into clean, responsive and interactive digital experiences. Currently learning, building and getting better with every project.</p>
+          <div class="hero-actions reveal">
+            <a href="#work" class="button button-primary">Explore my work <span>↘</span></a>
+            <a href="#contact" class="button button-quiet">Get in touch <span>↗</span></a>
+          </div>
+          <div class="hero-meta reveal"><span>BASED IN IBADAN, NIGERIA</span><span class="meta-line"></span><span>FRONTEND DEVELOPMENT</span></div>
+        </div>
+        <div class="hero-art reveal" aria-label="Decorative abstract developer illustration">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="art-card">
+            <div class="art-card-top"><span></span><span></span><span></span><small>building.exe</small></div>
+            <div class="code-art">
+              <p><i>01</i> <b>const</b> developer = {</p>
+              <p><i>02</i> &nbsp; curiosity: <em>true</em>,</p>
+              <p><i>03</i> &nbsp; creativity: <em>true</em>,</p>
+              <p><i>04</i> &nbsp; learning: <strong>"always"</strong></p>
+              <p><i>05</i> };</p>
+              <p class="code-comment">// turning ideas into interfaces ✦</p>
+            </div>
+            <div class="art-card-bottom"><span class="pulse"></span> CURRENTLY BUILDING <b>MY NEXT IDEA</b></div>
+          </div>
+          <div class="floating-chip chip-top">✳ CREATIVE THINKER</div>
+          <div class="floating-chip chip-bottom">{" "} &lt;/&gt; FRONTEND</div>
+          <div class="sparkle sparkle-one">✳</div><div class="sparkle sparkle-two">✦</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="section-label reveal"><span>01 / ABOUT ME</span><div></div></div>
+        <div class="about-content reveal">
+          <p class="section-overline">A LITTLE INTRODUCTION</p>
+          <h2>Curious mind.<br><span class="accent-text">Builder's mindset.</span></h2>
+          <p class="about-text">I'm Abigail, a junior frontend developer interested in creating websites that are useful, thoughtful and enjoyable to use. I work with HTML, CSS and JavaScript, and I'm continuing to grow my skills through hands-on projects and practice.</p>
+          <p class="about-text">I enjoy taking an idea from a blank page to a working interface — figuring things out, improving the details and learning something new along the way.</p>
+          <div class="about-stats">
+            <div><strong>03</strong><span>FEATURED PRACTICE PROJECTS</span></div>
+            <div><strong>∞</strong><span>THINGS LEFT TO LEARN</span></div>
+            <div><strong>100%</strong><span>CURIOUS ABOUT CODE</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="section-label"><span>02 / MY TOOLKIT</span><div></div></div>
+          <p class="section-overline">WHAT I USE TO BUILD</p>
+          <h2>Tools of the <span class="accent-text">trade.</span></h2>
+          <p class="section-intro">The technologies I'm learning and using to bring my ideas to life.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card reveal"><span class="skill-icon">⌘</span><h3>HTML5</h3><p>Building clear, meaningful page structures.</p><span class="skill-tag">STRUCTURE</span></article>
+          <article class="skill-card reveal"><span class="skill-icon">✳</span><h3>CSS3</h3><p>Responsive layouts, styling, transitions and animations.</p><span class="skill-tag">DESIGN</span></article>
+          <article class="skill-card reveal"><span class="skill-icon">JS</span><h3>JavaScript</h3><p>Adding interactions and useful behaviour to websites.</p><span class="skill-tag">INTERACTIVITY</span></article>
+          <article class="skill-card reveal"><span class="skill-icon">⚛</span><h3>React</h3><p>Learning component-based frontend development.</p><span class="skill-tag">LEARNING</span></article>
+          <article class="skill-card reveal"><span class="skill-icon">C</span><h3>C</h3><p>Practising programming fundamentals and problem-solving.</p><span class="skill-tag">PROGRAMMING</span></article>
+          <article class="skill-card reveal"><span class="skill-icon">⌁</span><h3>Git & VS Code</h3><p>Writing code, managing changes and building projects.</p><span class="skill-tag">WORKFLOW</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div class="section-label"><span>03 / SELECTED WORK</span><div></div></div>
+          <p class="section-overline">A FEW THINGS I'VE BUILT</p>
+          <h2>Ideas made <span class="accent-text">real.</span></h2>
+          <p class="section-intro">A selection of practice projects where I've applied what I'm learning. These are learning projects, not client work.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card reveal">
+            <div class="project-visual shop-visual">
+            <div class="project-visual shop-visual">
+  <img src="images/amazon.png" alt="Screenshot of my Amazon-inspired store">
+  <span class="visual-index">PROJECT / 01</span>
+</div>
+            </div>
+            <div class="project-info"><div class="project-type">E-COMMERCE · JAVASCRIPT</div><h3>Amazon-inspired Store UI</h3><p>A shopping interface built with product categories, search, product cards and product details, using the DummyJSON products API for practice.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span></div><div class="project-footer"><span>01 — INTERACTIVE STORE</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card project-reverse reveal">
+          <div class="project-visual food-visual">
+  <img src="images/protein.png" alt="Screenshot of my cafeteria ordering system">
+  <span class="visual-index">PROJECT / 02</span>
+</div>
+            <div class="project-info"><div class="project-type">WEB APP · JAVASCRIPT</div><h3>Cafeteria Ordering System</h3><p>A food-ordering practice app with a menu, cart, quantity controls, order handling and a payment-success interface.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-footer"><span>02 — ORDER & CHECKOUT</span><span class="project-arrow">↗</span></div></div>
+          </article>
+  <article class="project-card reveal">
+  <div class="project-visual kids-visual">
+    <img src="images/kids web.png" alt="Screenshot of my children's learning website">
+    <span class="visual-index">PROJECT / 03</span>
+  </div>
+
+  <div class="project-info">
+    <div class="project-type">EDUCATION · INTERACTIVE UI</div>
+    <h3>Children's Learning Website</h3>
+    <p>A colourful learning experience for children featuring alphabet, numbers, shapes, colours, stories and interactive learning activities.</p>
+
+    <div class="project-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+  </div>
+</article>
+</div>
+            </div>
+      
+          </article>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-orb"></div>
+      <div class="container contact-inner reveal">
+        <div class="section-label"><span>04 / YOUR TURN</span><div></div></div>
+        <p class="section-overline">HAVE AN IDEA?</p>
+        <h2>Let's make<br><span class="accent-text">something happen.</span></h2>
+        <p class="contact-copy">Have a project idea, want to collaborate, or just want to talk about tech? I'd love to hear from you.</p>
+        <a class="button button-primary contact-button" href="mailto:abigailsafiu25@gmail.com">EMAIL ME <span>↗</span></a>
+      
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">A.</span><span>abigail<span class="brand-dot">.</span></span></a><p>DESIGNED & BUILT WITH CURIOSITY.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></div>
+    <div class="footer-bottom">© <span id="year"></span> ABIGAIL. KEEP BUILDING.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
